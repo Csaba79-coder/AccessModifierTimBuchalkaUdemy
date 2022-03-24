@@ -1,0 +1,6 @@
+= Good to know: Access modifier
+
+1. public
+2. private
+3. protected
+4. package private - default (no keyword required)
