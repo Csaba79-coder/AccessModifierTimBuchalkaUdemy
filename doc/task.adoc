@@ -1,8 +1,9 @@
 = Good to know: Access modifier
 
-1. public
-2. private
-3. protected
-4. package private -  default (no keyword required)
+1. public -> visible to all classes everywhere! <- it is on the top level!
+2. private -> visible only in the class, where it was declared! (including of its subclasses!)
+3. protected -> visible anywhere in its own package! but also in subclasses even if they are in another package!
+4. package private -  default (no keyword required) -> the object is visible only in its own package
+(but not to classes in external packages!) <- it is on the top level in the package!
 
 image::image-2022-03-24-18-24-57-441.png[]
